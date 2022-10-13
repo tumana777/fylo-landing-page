@@ -290,7 +290,7 @@ footer {
     gap: 16px;
 }
 
-.phone, 
+.phone,
 .email {
     display: flex;
     align-items: center;
@@ -310,4 +310,218 @@ li {
 footer li:hover {
     color: #6C9BFF;
     cursor: pointer;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-white {
+    fill: #FFFFFF;
+    transition: 0.3s;
+}
+
+.icon-white:hover {
+    cursor: pointer;
+    fill: #6C9BFF;
+}
+
+/************************************************* Responsive Tablet *************************************************/
+
+@media (max-width: 1275px) {
+    .container {
+        width: 90%;
+    }
+
+    .intro-top {
+        align-items: center;
+    }
+
+    .intro-top-left {
+        width: 304px;
+    }
+
+    .intro-top-left p {
+        margin: 24px 0 32px;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: normal;
+    }
+
+    button,
+    input {
+        width: 304px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    button {
+        margin-top: 16px;
+    }
+
+    .illustration-1 {
+        max-width: 380px;
+    }
+
+    .intro-bottom {
+        align-items: center;
+    }
+
+    h2 {
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .intro-bottom-left p {
+        margin-right: 0;
+        width: 320px;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .how-works {
+        margin: 36px auto 47px;
+    }
+
+    .testimonial {
+        width: 320px;
+    }
+
+    .testimonial p {
+        width: 241px;
+        font-size: 10px;
+        line-height: 18px;
+        letter-spacing: 0.384615px;
+        text-align: left;
+    }
+
+    .illustration-2 {
+        max-width: 365px;
+    }
+
+    .contact-left-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .contact-left-col p {
+        width: 280px;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: normal;
+    }
+
+    .contact {
+        align-items: center;
+    }
+
+    .contact input,
+    .contact button {
+        width: 240px;
+    }
+}
+
+/************************************************* Responsive Tablet *************************************************/
+
+@media (max-width: 780px) {
+    header {
+        margin-top: 25px;
+    }
+
+    header img {
+        width: 80px;
+    }
+
+    ul {
+        column-gap: 25px;
+    }
+
+    header li {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .intro {
+        margin: 100px auto 0;
+    }
+
+    .intro-top {
+        flex-direction: column-reverse;
+    }
+
+    .illustration-1 {
+        width: 304px;
+    }
+
+    .intro-top-left {
+        margin-top: 40px;
+    }
+
+    .intro-top-left button {
+        margin-bottom: 90px;
+    }
+
+    .intro-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .illustration-2 {
+        width: 320px;
+        margin-bottom: 87px;
+    }
+
+    .bg {
+        padding-bottom: 82px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact input {
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
+
+    .contact button {
+        margin-top: 0;
+    }
+
+    .bg-2 {
+        padding-top: 54px;
+        padding-bottom: 71px;
+    }
+
+    .bg-3 {
+        padding-top: 65px;
+        padding-bottom: 42px;
+    }
+
+    footer {
+        margin-top: 32px;
+        font-size: 16px;
+        line-height: 24px;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .social {
+        justify-content: center;
+    } 
 }
